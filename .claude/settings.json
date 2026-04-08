@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c \"import json,sys; nb=json.load\\(sys.stdin\\); print\\(json.dumps\\(nb.get\\(''''metadata'''',{}\\), indent=2\\)\\); print\\(''''nbformat:'''', nb.get\\(''''nbformat''''\\), nb.get\\(''''nbformat_minor''''\\)\\)\")"
+    ]
+  }
+}
